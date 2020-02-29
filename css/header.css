@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    width: 1230px;
+    height: 40px;
+    margin: 0px auto;
+}
+.navLeft{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 40px;
+    background-color: #333;
+}
+.navLeft > li{
+    height: 40px;
+    line-height: 40px;
+}
+.navLeft > li > a{
+    display: block;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b0b0b0;
+}
+.navLeft > li > a:hover{
+    color: white;
+}
+.navLeft > span{
+    line-height: 40px;
+    font-size: 8px;
+    color: #3c423c;
+}
+.navRight{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.navRight > li{
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.navRight > li > a{
+    display: block;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.navRight > li > a:hover{
+    color: white;
+}
+.navRight > li.shapping-car{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: #424242;
+}
+.navRight > li.shapping-car >section{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 325px;
+    height: 100px;
+    background-color: white;
+}
+.navRight > li.shapping-car:hover > section{
+    display: block;
+}
+.navRight > li.shapping-car >section > p{
+    margin-top: 30px;
+    font-size: 12px;
+}
+.container{
+    width: 1210px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+.container > ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-top: 22px;
+    background-color: #ff6700;
+    cursor: pointer;
+}
+.logo > i.icon-xiaomi{
+    font-size: 50px;
+    color: white;
+}
+.logo > i.icon-home{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    background-color: #ff6700;
+    font-size: 50px;
+    color: white;
+}
+.logo:hover > i.icon-home{
+    display: block;
+}
+.clect{
+    width: 900px;
+    height: 88px;
+    margin-left: 10px;
+    padding: 12px 0 0 30px;
+}
+.mi-phone > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+}
+.mi-phone > ul > li{
+    width: 160px;
+    height: 110px;
+    margin-top: 40px;
+}
+.mi-phone{
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    width: 1900px;
+    height: 0px;
+    background-color: white;
+    transition: 0.2s linear;
+    z-index: 999;
+    overflow: hidden; 
+}
+.xiaomi:hover ~ .mi-phone > ul.img{
+    display: flex;
+}
+.title{
+    margin-top: 10px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.prise{
+    height: 20px;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+.xiaomi:hover ~.mi-phone{
+    border-top: 2px solid #ccc;
+    height: 230px;
+}
+.clect > a:first-child{
+    color: black;
+    margin-left: 100px;
+}
+.clect > a{
+    font-size: 16px;
+}
+.clect > a ~ a{
+    color: black;
+    margin-left: 30px;
+    line-height: 88px;
+}
+.clect > a:hover{
+    color: #ff6700;
+}
+.search{
+    position: relative;
+}
+.search > input{
+    width: 284px;
+    height: 48px;
+    margin: 34px;
+}
+.search > button{
+    position: absolute;
+    top: 34px;
+    left: 285px;
+    width: 52px;
+    height: 52px;
+}
+.search > button > i{
+    font-size: 26px;
+}
+.placeholder{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 49px;
+    right: 92px;
+    width: 170px;
+    height: 20px;
+}
+.placeholder > li{
+    padding: 0 3px;
+    height: 20px;
+    font-size: 12px;
+    color: #757575;
+    cursor: pointer;
+    background-color: #eee;
+}
+.placeholder > li:hover{
+    color: white;
+    background-color: #ff6700;
+}

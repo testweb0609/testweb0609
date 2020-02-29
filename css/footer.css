@@ -1,0 +1,182 @@
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+.site-footer{
+    width: 100%;
+    height: 272px;
+}
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1226px;
+    height: 272px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.footer-service{
+    position: absolute;
+    width: 1226px;
+    height: 25px;
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer-service > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1226px;
+    height: 25px;
+}
+.footer-service > ul > li{
+    width: 200px;
+    height: 25px;
+    padding-right: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+.footer-service > ul > li.point{
+    border: none;
+}
+.footer-service > ul > li > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 25px;
+    text-align: center;
+}
+.footer-service > ul > li > a:hover i{
+    color: #ff6700;
+}
+.footer-service > ul > li > a:hover span{
+    color: #ff6700;
+}
+.footer-service > ul > li > a > span{
+    font-size: 18px;
+    color: #616161;
+}
+.footer-service > ul > li > a > i{
+    vertical-align: middle;
+    font-size: 24px;
+    color: #656365;
+}
+.footer-service > ul > li > a > i.gift{
+    position: relative;
+    top: -6px;
+    right: 0px;
+    font-size: 24px;
+    color: #656365;
+    vertical-align: middle;
+}
+.footer-service > ul > li > a:hover i.gift{
+    color: #ff6700;;
+}
+.footer-links{
+    width: 1226px;
+    height: 112px;
+    padding: 40px 0;
+    margin-top: 88px;
+}
+.footer-links > dl{
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+.footer-links > dl > dt{
+    margin-bottom: 15px;
+}
+.footer-links > dl > dd > a{
+    margin-left: 5px;
+    color: #757575;
+    font-size: 12px;
+}
+.col-contact{
+    box-sizing: border-box;
+    width: 251px;
+    height: 112px;
+    padding-left: 40px;
+    margin-top: 130px;
+    border-left: 1px solid #ccc;
+}
+.col-contact > p{
+    text-align: center;
+}
+.col-contact > p:nth-of-type(1){
+    font-size: 24px;
+    color: #ff6700;
+}
+.col-contact > p ~ p{
+    font-size: 12px;
+}
+.col-contact > a{
+    display: flex;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    margin: 12px 45px;
+    border: 1px solid #ff6700;
+    transition-duration: 0.5s;
+}
+.col-contact > a:hover{
+    background-color: #ff6700;
+}
+.col-contact > a > p{
+    color: #ff6700;
+    text-indent: 7px;
+}
+.col-contact > a:hover >i{
+    color: white;
+}
+.col-contact > a:hover >p{
+    color: white;
+}
+.col-contact > a > i{
+    color: #ff6700;
+    text-indent: 24px;
+}
+.author{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.author > .p-message{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 500px;
+    margin: 0px auto;
+    border-top: 70px solid #ccc;
+    border-right: 70px solid skyblue;
+    border-bottom: 70px solid #ccc;
+    border-left: 70px solid skyblue;
+}
+.author > .p-message > .p-images1{
+    width: 348px;
+    height: 500px;
+    border-right: 2px solid red;
+    overflow: hidden;
+}
+.author > .p-message > .p-images2{
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
+.p-images2 > ul{
+    width: 100%;
+    height: 100%;
+}
+.p-images2 > ul > :nth-child(1){
+    margin: 10px 20px;
+    font-size: 24px;
+    color: #757575;
+}
+.p-images2 > ul > :nth-child(2){
+    margin: 10px 20px;
+    font-size: 24px;
+    color: #757575;
+}
+.p-images2 > ul > :nth-child(3){
+    margin: 10px 20px;
+    font-size: 24px;
+    color: #757575;
+}
